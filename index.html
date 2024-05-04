@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Larry Villegas Costas" />
+    <meta
+      name="title"
+      content="PROY05: Product Preview Card Component - Larry Villegas Costas - Frontend Club"
+    />
+    <meta
+      name="description"
+      content="PROY05: Product Preview Card Component - Larry Villegas Costas - Frontend Club"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./images/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <title>PROY05: Product Preview Card Component - Frontend Club</title>
+  </head>
+  <body>
+    <main>
+      <picture>
+        <source
+          media="(max-width:768px)"
+          srcset="./images/image-product-mobile.jpg"
+        />
+        <img
+          class="product-image"
+          src="./images/image-product-desktop.jpg"
+          alt="Gabrielle Chanel"
+        />
+      </picture>
+      <article>
+        <h2>PERFUME</h2>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p class="description">
+          A floral, solar and voluptuous interpretation composed by Oliver
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <p class="prices">
+          <span class="price">$149.99</span
+          ><span class="old-price"><del>$169.99</del></span>
+        </p>
+        <button>
+          <img src="images/icon-cart.svg" alt="Icon cart" />Add to Cart
+        </button>
+      </article>
+    </main>
+  </body>
+</html>
