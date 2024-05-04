@@ -92,6 +92,9 @@ button {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
 }
 
 button:hover {
